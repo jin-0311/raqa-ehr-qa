@@ -1,0 +1,22 @@
+# secrets / local env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# data & outputs (MIMIC data is credentialed — never commit)
+data/
+artifacts/
+results/
+*.csv
+*.log
+
+# python / os
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# notebook demo run outputs
+demo_data/
+demo_artifacts/
